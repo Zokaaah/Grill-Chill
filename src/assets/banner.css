@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.bannerContent{
+    background-image: url('../assets/images/bkgBanner.png');
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5%;
+    font-family: "Abril Fatface", serif;
+
+}
+
+.BannerTitle{
+    font-family: "Abril Fatface", serif;
+    color: #F68908;
+    font-size: 95px;
+    margin-bottom: 5%;
+}
+.BannerTitle span{
+    color: #F83B12;
+}
+
+.BannerSubtitle{
+    font-size: 38px;
+    margin-bottom: 5%;
+
+}
+
+.bannerContent{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: left;
+}
+
+.textContent{
+    max-width: 1280px;
+    width: 50%;
+
+}
+
+.BtnContato{
+    margin-top: 5%;
+    background-color: #F68908;
+    color: #fff;
+    padding: 2%;
+    width: 400px;
+    border: none;
+}
+
+.BtnContato:hover{
+    margin-top: 5%;
+    background-color: #fff;
+    color: #F68908;
+    padding: 2%;
+    width: 400px;
+    border: none;
+}
